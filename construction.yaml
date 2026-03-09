@@ -1,0 +1,23 @@
+# construction.yaml
+# ─────────────────────────────────────────────────────
+# YOLOv12 Dataset Configuration
+# ─────────────────────────────────────────────────────
+
+path: dataset/construction         # Root path of dataset
+train: images/train                # Training images (relative to path)
+val:   images/val                  # Validation images
+test:  images/test                 # Test images (optional)
+
+# Number of classes
+nc: 8
+
+# Class names (must match label order in annotation files)
+names:
+  0: cement_bag
+  1: steel_bar
+  2: steel_pipe
+  3: brick
+  4: flyash_brick
+  5: aac_block
+  6: formwork_shutter
+  7: plastic_pipe

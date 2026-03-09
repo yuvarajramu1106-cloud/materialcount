@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────────────
+# requirements.txt — Construction Material Detection
+# Install all with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────
+
+# ── Core ML & Computer Vision ─────────────────────────
+ultralytics>=8.3.0          # YOLOv12 framework (auto-downloads model weights)
+opencv-python>=4.9.0        # Video capture, frame processing, heatmap rendering
+numpy>=1.26.0               # Array operations
+torch>=2.3.0                # PyTorch backend for YOLOv12
+torchvision>=0.18.0         # Vision utilities
+
+# ── Web Framework ─────────────────────────────────────
+Flask>=3.0.0                # Web server & routing
+Werkzeug>=3.0.0             # File upload security (secure_filename)
+
+# ── PDF Report Generation ─────────────────────────────
+reportlab>=4.1.0            # Professional PDF creation (charts, tables, images)
+
+# ── Image Processing ──────────────────────────────────
+Pillow>=10.3.0              # Image format handling
+
+# ── Config & Utilities ────────────────────────────────
+PyYAML>=6.0                 # YAML config files (bytetrack.yaml, construction.yaml)
+scipy>=1.13.0               # ByteTrack dependency
+
+# ── Database (optional: MySQL production mode) ────────
+# Uncomment below for MySQL support:
+# mysql-connector-python>=8.3.0
+
+# ── Optional: MongoDB ─────────────────────────────────
+# pymongo>=4.7.0
+
+# ── Optional: env loading ─────────────────────────────
+# python-dotenv>=1.0.0
