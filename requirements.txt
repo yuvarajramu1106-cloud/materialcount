@@ -33,3 +33,4 @@ scipy>=1.13.0               # ByteTrack dependency
 
 # ── Optional: env loading ─────────────────────────────
 # python-dotenv>=1.0.0
+gunicorn
